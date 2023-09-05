@@ -1,0 +1,31 @@
+{
+  "name": "prisma-crud",
+  "version": "1.0.0",
+  "description": "NodeJs CRUD using PrismaORM framework.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Otávio Pinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marshziin/prisma_crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marshziin/prisma_crud/issues"
+  },
+  "homepage": "https://github.com/Marshziin/prisma_crud#readme"
+}
